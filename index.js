@@ -11,7 +11,7 @@ const naoso = require('./comandos/naoso');
 const help = require('./comandos/help');
 
 
-client.login(" ");
+client.login(process.env.BOT_TOKEN);
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
