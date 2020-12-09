@@ -11,7 +11,7 @@ const naoso = require('./comandos/naoso');
 const help = require('./comandos/help');
 
 
-client.login("Nzg1ODQ3MjkyMzk2NTY4NjE3.X89zUg.dvjerSDc7X7cdI4rNtsnkZkEcU4");
+client.login(" ");
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
